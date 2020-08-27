@@ -135,23 +135,6 @@ code[class*="language-"], pre[class*="language-"]{
     }
 }
 
-
-article {
-	img {
-		margin: 40px 0;
-	}
-	p, ul, ol, blockquote {
-		margin-bottom: 20px;
-	}
-	p, ul li, ol li {
-		font-size: 1.2rem;
-	}
-	h1, h2, h3, h4, h5, h6,
-	.h1, .h2, .h3, .h4, .h5, .h6 {
-		margin-bottom: 30px;
-	}
-}
-
 .folder-structure li {
 	font-size: 1.2rem;
 }

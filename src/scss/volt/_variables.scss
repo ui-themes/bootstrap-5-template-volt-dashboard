@@ -171,22 +171,7 @@ $theme-colors: map-merge((
   "gray-600":     $gray-600,
   "gray-700":     $gray-700,
   "gray-800":     $gray-800,
-  "facebook":     $facebook,
-  "twitter":      $twitter,
-  "google":       $google,
-  "instagram":    $instagram,
-  "pinterest":    $pinterest,
-  "youtube":      $youtube,
-  "slack":        $slack,
-  "dribbble":     $dribbble,
-  "dropbox":      $dropbox,
-  "twitch":       $twitch,
-  "paypal":       $paypal,
-  "behance":      $behance,
-  "reddit" :      $reddit,  
-  "github":       $github
 ), $theme-colors);
-
 
 // Set a specific jump point for requesting color jumps
 $theme-color-interval: 8%;

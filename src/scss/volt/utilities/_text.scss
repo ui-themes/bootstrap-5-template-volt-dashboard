@@ -23,11 +23,6 @@
   }
 }
 
-// Letter spacings
-.ls-1 { letter-spacing: .0625rem; }
-.ls-2 { letter-spacing: .09375rem; }
-.ls-3 { letter-spacing: 0.125rem; }
-
 // Responsive alignment
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
@@ -41,9 +36,6 @@
 
 // Transformation
 .text-body { color: $body-color !important; }
-
-.text-black-50 { color: rgba($black, .5) !important; }
-.text-white-50 { color: rgba($white, .5) !important; }
 
 .list-style-none {
   margin: 0px;
